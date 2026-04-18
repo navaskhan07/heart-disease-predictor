@@ -1,5 +1,8 @@
 # Heart Disease Risk Predictor
 
+🔗 Live Demo: https://heart-disease-predictor-umber.vercel.app
+📡 API Docs:  https://heart-disease-predictor-api-plfi.onrender.com/docs
+
 A full-stack ML web application that predicts cardiovascular disease risk
 using clinical parameters.
 
@@ -39,3 +42,4 @@ npm run dev
 ```
 
 ## Architecture
+
