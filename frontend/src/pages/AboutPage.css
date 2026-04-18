@@ -1,0 +1,87 @@
+.about-page { padding: 3rem 1.5rem; min-height: calc(100vh - 64px); }
+.about-container { max-width: 900px; margin: 0 auto; }
+
+.about-hero {
+  text-align: center;
+  padding: 3rem 0 2rem;
+}
+
+.about-hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; }
+.about-hero p { color: var(--gray-600); font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+
+.about-section { margin-bottom: 3rem; }
+.about-section h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; color: var(--gray-800); }
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.metric-card {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.metric-val { font-size: 1.75rem; font-weight: 800; color: var(--red); }
+.metric-lbl { font-size: 0.85rem; color: var(--gray-600); margin-top: 0.25rem; }
+
+.tech-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+
+.tech-card {
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-md);
+}
+
+.tech-layer { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.25rem; }
+.tech-name { font-size: 1rem; font-weight: 600; color: var(--gray-800); }
+
+.features-list {
+  background: white;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.feature-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 1.25rem;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.feature-item:last-child { border-bottom: none; }
+.feature-name { font-weight: 700; font-size: 0.9rem; color: var(--red); font-family: monospace; }
+.feature-desc { font-size: 0.9rem; color: var(--gray-600); }
+
+.limitations {
+  background: #fffaf0;
+  border: 1px solid #f6e05e;
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+}
+
+.limitations h2 { color: #744210; }
+
+.limitations ul { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
+
+.limitations li {
+  padding-left: 1.5rem;
+  position: relative;
+  font-size: 0.9rem;
+  color: var(--gray-700);
+  line-height: 1.6;
+}
+
+.limitations li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #d69e2e;
+  font-weight: 700;
+}
